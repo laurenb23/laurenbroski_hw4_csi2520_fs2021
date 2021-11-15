@@ -73,6 +73,7 @@ footer {
     padding: 10px;
     color: #fafafa;
     border-radius: 12px;
+    clear: both;
 }
 
 .progress_bar {
@@ -81,6 +82,8 @@ footer {
     margin-right: 200px;
     margin-bottom: 30px;
     padding: 5px;
+    position: absolute;
+    clear: both;
 }
 
 #contact {
@@ -128,4 +131,14 @@ h3 {
 figure figcaption {
     text-align: left;
     margin: 35px;
+}
+
+section {
+    display: inline;
+}
+
+#label {
+    font-weight: bold;
+    font-style: italic;
+    line-height: 20%;
 }
