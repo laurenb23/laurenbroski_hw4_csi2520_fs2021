@@ -32,9 +32,7 @@ function buttonClicked() {
 
     btn1.addEventListener("click", function() {
 
-        // Use a console.log statement and check the console to understand why I had to do content[0]
         var content = newDiv.getElementsByClassName("text_area");
-        // This is going to have to be rewritten probably, the more complex you get
         content[0].innerHTML = input.value;
 
         let btn2 = document.createElement('button');
